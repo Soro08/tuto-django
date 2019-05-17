@@ -1,4 +1,6 @@
-# tuto-django
+ # tuto-django
+![alt text](https://static.djangoproject.com/img/icon-touch.e4872c4da341.png)
+
 # I- Comment installer django
   ## I-1 Intall Django mac os
 
@@ -24,9 +26,9 @@ $ source venv/bin/activate
 $ pip3 install Django
 ```
 ##Setup 6:Création de notre projet
-Django installé,
+> Django installé,
 
-On va créer un projet Django nommé myproject.
+>On va créer un projet Django nommé myproject.
 
 ```bash
 $ django-admin startproject myproject
@@ -43,7 +45,7 @@ myproject/
         wsgi.py       #Utile pour le deploiement
 ```
 ##Setup 7: lancer le serveur django
-Le projet est créée. On va lancer notre première commande avec manage.py
+> Le projet est créée. On va lancer notre première commande avec manage.py
 
 ```bash
 $ cd myproject
@@ -52,6 +54,6 @@ $ python3 manage.py runserver
 
 
 
-Et notre application est lancé par défaut, elle ecoute sur le port 8000
+> Et notre application est lancé par défaut, elle ecoute sur le port 8000
 
-Source [Django](https://docs.djangoproject.com/fr/2.2/intro/tutorial01/)
+> Source [Django](https://docs.djangoproject.com/fr/2.2/intro/tutorial01/)
