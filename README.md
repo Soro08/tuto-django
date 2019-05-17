@@ -1,4 +1,4 @@
- # tuto-django
+ # tuto-django 
 ![alt text](http://sdz.tdct.org/sdz/medias/uploads.siteduzero.com_files_250001_251000_250279.png)
 
 # I- Comment installer django
@@ -6,7 +6,8 @@
 
 ##Setup 1
 
-###Vérifier que python est installé
+###Vérifier que python est installé 
+:smile_cat:
 
 ```bash
 $ python3
@@ -26,9 +27,9 @@ $ source venv/bin/activate
 $ pip3 install Django
 ```
 ##Setup 6:Création de notre projet
-> Django installé,
+> Django installé,:clap:
 
->On va créer un projet Django nommé myproject.
+>On va créer un projet Django nommé myproject. :sunglasses:
 
 ```bash
 $ django-admin startproject myproject
@@ -45,7 +46,7 @@ myproject/
         wsgi.py       #Utile pour le deploiement
 ```
 ##Setup 7: lancer le serveur django
-> Le projet est créée. On va lancer notre première commande avec manage.py
+> Le projet est créée. On va lancer notre première commande avec manage.py :runner:
 
 ```bash
 $ cd myproject
@@ -54,6 +55,8 @@ $ python3 manage.py runserver
 
 
 
-> Et notre application est lancé par défaut, elle ecoute sur le port 8000
+> Et notre application est lancé par défaut, elle ecoute sur le port 8000 :confetti_ball:
 
 > Source [Django](https://docs.djangoproject.com/fr/2.2/intro/tutorial01/)
+
+@soro08 🇨🇮 :computer:
