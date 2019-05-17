@@ -1,5 +1,5 @@
  # tuto-django
-![alt text](https://static.djangoproject.com/img/icon-touch.e4872c4da341.png)
+![alt text](http://sdz.tdct.org/sdz/medias/uploads.siteduzero.com_files_250001_251000_250279.png)
 
 # I- Comment installer django
   ## I-1 Intall Django mac os
