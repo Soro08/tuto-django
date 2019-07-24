@@ -68,6 +68,12 @@ $ python3 manage.py runserver
  
  [Models](https://docs.djangoproject.com/fr/2.2/topics/db/models/)
  
+ ```bash
+    statut = models.BooleanField(default=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+ ```
+ 
  
  ### II-1-1 Models Query
  
