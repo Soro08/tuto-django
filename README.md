@@ -59,4 +59,15 @@ $ python3 manage.py runserver
 
 > Source [Django](https://docs.djangoproject.com/fr/2.2/intro/tutorial01/)
 
+
+
+# II- Model et Admin
+  ## II-1 Models
+  
+ ici nous allons profiter de l'ORM de django
+ 
+ [Models](https://docs.djangoproject.com/fr/2.2/topics/db/models/)
+ 
+ 
+
 @soro08 🇨🇮 :computer:
