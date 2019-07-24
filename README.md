@@ -69,5 +69,44 @@ $ python3 manage.py runserver
  [Models](https://docs.djangoproject.com/fr/2.2/topics/db/models/)
  
  
+ ### II-1-1 Models Query
+ 
+ Ici le requette django avec ORM
+ [QuerySet](https://docs.djangoproject.com/fr/2.2/ref/models/querysets/)
+ 
+ ## II-2 Admin 
+ 
+ ### II-2-1 (configuration)
+ 
+ # Configuration du site django
+ 
+ 
+ ```bash
+
+ admin.site.site_header = "En tête du site" 
+ admin.site.site_title = "Title"
+ admin.site.index_title = "Message d'acceuil"
+ ```
+ 
+ ### II-2-2 Appel de models
+ 
+ Exemple Basic de la partie admin
+ 
+ ```bash
+ @admin.register(NomModel)
+ class NomModelAdmin(admin.ModelAdmin):
+     list_display = ('col1' ,'col2',)
+     list_filter = ("col1",)
+     search_fields = ('col1' ,'col2',)
+     list_per_page = 50
+
+     ordering = ['-col1', '-col2']
+
+       
+   ```
+ 
+ 
+ 
+ 
 
 @soro08 🇨🇮 :computer:
