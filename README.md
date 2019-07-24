@@ -74,7 +74,7 @@ $ python3 manage.py runserver
     updated_at = models.DateTimeField(auto_now=True)
     
     
-    post = models.ForeignKey(Pots, on_delete=models.CASCADE,related_name="post_article", null=true)
+    post = models.ForeignKey(Post, on_delete=models.CASCADE,related_name="post_article", null=true)
     
     python manage.py makemigrations
     python manage.py migrate
