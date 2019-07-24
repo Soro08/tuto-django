@@ -78,6 +78,9 @@ $ python3 manage.py runserver
     
     python manage.py makemigrations
     python manage.py migrate
+    
+    pip freeze
+    pip freeze > requirements.txt
  ```
  
  
