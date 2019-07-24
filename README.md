@@ -72,6 +72,10 @@ $ python3 manage.py runserver
     statut = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    
+    
+    python manage.py makemigrations
+    python manage.py migrate
  ```
  
  
@@ -92,6 +96,8 @@ $ python3 manage.py runserver
  admin.site.site_header = "En tête du site" 
  admin.site.site_title = "Title"
  admin.site.index_title = "Message d'acceuil"
+ 
+ 
  ```
  
  ### II-2-2 Appel de models
