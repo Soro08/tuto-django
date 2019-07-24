@@ -92,6 +92,7 @@ $ python3 manage.py runserver
  
  
  ```bash
+ 
 
  admin.site.site_header = "En tête du site" 
  admin.site.site_title = "Title"
@@ -105,6 +106,8 @@ $ python3 manage.py runserver
  Exemple Basic de la partie admin
  
  ```bash
+ from .models import *
+ 
  @admin.register(NomModel)
  class NomModelAdmin(admin.ModelAdmin):
      list_display = ('col1' ,'col2',)
