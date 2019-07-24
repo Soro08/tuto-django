@@ -74,6 +74,8 @@ $ python3 manage.py runserver
     updated_at = models.DateTimeField(auto_now=True)
     
     
+    post = models.ForeignKey(Pots, on_delete=models.CASCADE,related_name="post_article", null=true)
+    
     python manage.py makemigrations
     python manage.py migrate
  ```
@@ -97,6 +99,9 @@ $ python3 manage.py runserver
  admin.site.site_header = "En tête du site" 
  admin.site.site_title = "Title"
  admin.site.index_title = "Message d'acceuil"
+ 
+ 
+ 
  
  
  ```
