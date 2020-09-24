@@ -146,7 +146,7 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 ``` 
 from django.conf.urls.static import static
-from filebrowser.sites import site
+from django.conf import settings
 
 
 if settings.DEBUG:
