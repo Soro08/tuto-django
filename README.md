@@ -143,7 +143,8 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 ``` 
 
  # urls.py
- 
+
+``` 
 from django.conf.urls.static import static
 from filebrowser.sites import site
 
@@ -152,6 +153,7 @@ if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root= settings.MEDIA_ROOT)
     urlpatterns += static(settings.STATIC_URL, document_root= settings.STATIC_ROOT)
  
+ ``` 
  
  
 
