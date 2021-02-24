@@ -1,4 +1,7 @@
-# configurations
+ # tuto-django-rest-framework
+![alt text](https://soshace.com/wp-content/uploads/2021/01/879-png-3.png)
+
+## configurations
 
 ```
     Nous suggerons que vous avez creer un projet django et faire sa configuration avec une application
@@ -181,10 +184,10 @@
 
     urlpatterns += router.urls
 ```
-```
-    NB: -Utilisez viewsets.ModelViewSet lorsque vous allez autoriser toutes les opérations CRUD ou la plupart                   d'entre elles sur un modèle.
+
+    NB: -Utilisez viewsets.ModelViewSet lorsque vous allez autoriser toutes les opérations CRUD ou la plupart d'entre elles sur un modèle.
     -Utilisez APIView lorsque vous souhaitez personnaliser complètement le comportement.
-```
+
 ### Avec Viewset
 
 ```python
