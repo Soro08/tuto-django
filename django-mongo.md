@@ -3,7 +3,9 @@
 #Usage:
 Install djongo:
 
-```python pip install djongo  ``` 
+```python 
+pip install djongo  
+``` 
 
 Into settings.py file of your project, add:
 
@@ -19,3 +21,9 @@ DATABASES = {
 }
 
 ``` 
+
+Istall DNS PYTHON
+
+```python
+dnspython==1.16.0
+```
