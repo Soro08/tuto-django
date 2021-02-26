@@ -13,9 +13,9 @@ Into settings.py file of your project, add:
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'your-db-name',
         'CLIENT': {
-           'host': 'your-db-host',
+            'host': '',
+            "authMechanism": "SCRAM-SHA-1",
         }
     }
 }
@@ -25,5 +25,5 @@ DATABASES = {
 Istall DNS PYTHON
 
 ```python
-dnspython==1.16.0
+pip install dnspython
 ```
