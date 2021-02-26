@@ -2,7 +2,8 @@
 
 #Usage:
 Install djongo:
-```bash pip install djongo  ``` 
+
+```python pip install djongo  ``` 
 
 Into settings.py file of your project, add:
 
